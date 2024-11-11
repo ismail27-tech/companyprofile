@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer .copyright a {
+  color: #ee5050;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #0015ff;
+}
+
+.footer .link a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.footer .link a:hover {
+  color: #0d6efd;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .card-title {
+      font-size: 1.2rem;
+  }
+  .navbar-brand {
+      font-size: 1.1rem;
+  }
+}
+
+/* Mengatur lebar dan tinggi maksimum gambar agar seragam */
+.news-image {
+  width: 100%; /* Membuat gambar menyesuaikan lebar kolom */
+  height: 200px; /* Mempertahankan rasio aspek gambar */
+  object-fit: cover; /* Memotong gambar agar menutupi area secara merata */
+  border-radius: 5px; /* Membuat sudut gambar sedikit melengkung */
+  max-height: 200px; /* Membatasi tinggi gambar */
+}
+
+/* Gambar di artikel penuh */
+#full-article img {
+  width: 100%; /* Memastikan gambar mengikuti lebar kontainer */
+  height: auto; /* Mempertahankan proporsi gambar */
+  max-height: 300px; /* Batas maksimum tinggi gambar */
+  object-fit: cover; /* Memotong gambar agar sesuai dengan kontainer */
+  border-radius: 5px; /* Sudut melengkung */
+}
+
+/* Rating */
+#rating-container button {
+  font-size: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#rating-container button:hover {
+  color: gold;
+}
+
+/* Ulasan */
+#review-text {
+  width: 100%;
+}
+
+#reviews-container {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.review-item {
+  background: #f8f9fa;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+
+/* Responsif: Jika ukuran layar kecil, sesuaikan tinggi gambar */
+@media (max-width: 768px) {
+  .news-image {
+      max-height: 200px;
+  }
+}
