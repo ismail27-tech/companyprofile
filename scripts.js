@@ -82,7 +82,7 @@ const newsArticles = [
     {
         id: 1,
         title: "SMKS BINA KARYA 2 Karawang dan PT. COMBEK Kolaborasi dalam Teaching Factory, Cetak Generasi Siap Kerja",
-        image: "assets/img/berita/berita1.jpg",
+        image: "https://ismail27-tech.github.io/companyprofile/assets/img/berita/berita1.jpg",
         summary: "SMKS BINA KARYA 2 Karawang menjalin kolaborasi dengan PT. COMBEK melalui program Teaching Factory (TeFa). Program ini bertujuan untuk mempersiapkan siswa dengan keterampilan praktis yang dibutuhkan di dunia industri. Dalam acara pemaparan TeFa, siswa dan guru antusias mengikuti diskusi tentang potensi kerjasama ini. Kepala Sekolah SMKS BINA KARYA 2 menekankan bahwa melalui program ini, siswa tidak hanya dibekali dengan ilmu akademis, tetapi juga pengalaman industri langsung, mulai dari teknologi mutakhir hingga manajemen mutu.",
         content: "Karawang, 8 November 2024 – SMKS BINA KARYA 2 Karawang kembali membuktikan komitmennya dalam mencetak generasi siap kerja melalui kolaborasi dengan PT. COMBEK. Mengusung konsep Teaching Factory (TeFa), program ini menjadi jembatan penting antara dunia pendidikan dan industri, memberikan kesempatan kepada siswa untuk belajar langsung dengan suasana dan standar industri nyata.\n\n" +
                      "Dalam acara pemaparan TeFa yang digelar di SMKS BINA KARYA 2 Karawang, para siswa, guru, serta perwakilan PT. COMBEK antusias mengikuti jalannya diskusi yang memperkenalkan berbagai program dan potensi besar dari kerjasama ini. Kepala SMKS BINA KARYA 2 menegaskan bahwa melalui Teaching Factory, sekolah tidak hanya ingin mencetak lulusan yang kompeten secara akademis, tetapi juga memiliki keterampilan praktis yang siap diterapkan di dunia kerja.\n\n" +
